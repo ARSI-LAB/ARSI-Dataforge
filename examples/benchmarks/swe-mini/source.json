@@ -1,0 +1,35 @@
+{
+  "schema_version": "benchmark-source-v1",
+  "family": "workbuddy",
+  "release": "swe-mini",
+  "split": "development",
+  "license": {
+    "id": "example-owned",
+    "derive_allowed": true,
+    "redistribute_allowed": false,
+    "access_conditions": "synthetic example task, local evaluation only"
+  },
+  "cases": [
+    {
+      "source_task_id": "swe-001",
+      "task_text": "Original SWE-style accounting rollup exercise for the swe-mini example.",
+      "initial_state_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "expected_state_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  ],
+  "environment": {
+    "path": "runtime/environment.json",
+    "sha256": "PENDING"
+  },
+  "verifier": {
+    "path": "../verifier/text_verifier.py",
+    "sha256": "PENDING",
+    "command": ["PYTHON", "../verifier/text_verifier.py"],
+    "version": "example-text-verifier-v1",
+    "launcher": {
+      "path": "PYTHON",
+      "sha256": "PENDING"
+    }
+  },
+  "assets": []
+}

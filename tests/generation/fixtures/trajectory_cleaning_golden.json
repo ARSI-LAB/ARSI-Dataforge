@@ -1,0 +1,660 @@
+{
+  "expected_cleaned_corpus_fingerprint": "sha256:b18cf3ad5692c41e796b3c0fb4f4da0a904a5766045f2e6cd0198e06f5d5c5f8",
+  "legacy_cleaned_corpus_fingerprint": "sha256:cbd98be086c2db4520aeb6acf62a9fd3d6c9697eb8cff1280f8f81e981bfa69c",
+  "normalized_corpus_fingerprint": "sha256:ed4cd8f142471246cae7db0444e7782b12211c9b265b3dc259042d487c103c5c",
+  "records": [
+    {
+      "degenerate_flags": {
+        "pii-record": {
+          "infinite_loop": {
+            "pairs": {
+              "repeat|same": 6
+            },
+            "threshold": 3
+          },
+          "repeated_action": {
+            "max_streak": 6,
+            "threshold": 5
+          }
+        }
+      },
+      "expected_cleaned_fingerprint": "sha256:8b1afad23943e5bc87b8452e80ecadb8ba1e66f396d1fd40f54b586858882082",
+      "expected_cleaned_payload": {
+        "cost": {
+          "total": 1.25
+        },
+        "meta": {
+          "agent_version": "fixture",
+          "extensions": {
+            "host_pid": 42
+          },
+          "finished_at": null,
+          "harness": "unknown",
+          "model_version": "fixture",
+          "skill_versions": {},
+          "started_at": null
+        },
+        "outcome": {
+          "corrections": 0,
+          "error_category": "assertion",
+          "status": "failure",
+          "summary": "failed"
+        },
+        "steps": [
+          {
+            "action": "run",
+            "error": true,
+            "index": 0,
+            "observation": "\nAssertionError [REDACTED:email]",
+            "redacted": true,
+            "tool": null
+          },
+          {
+            "action": "fetch [REDACTED:password]",
+            "error": false,
+            "index": 1,
+            "observation": "[REDACTED:bearer_token] zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+            "redacted": true,
+            "tool": "shell"
+          },
+          {
+            "action": "email [REDACTED:email]",
+            "error": false,
+            "index": 2,
+            "observation": "reachable at [REDACTED:ipv4]",
+            "redacted": true,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 3,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 4,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 5,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 6,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 7,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 8,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          }
+        ],
+        "task": "Contact [REDACTED:email] with [REDACTED:api_key]",
+        "trajectory_id": "pii-record"
+      },
+      "expected_payload_diff_paths": [
+        "steps.2.redacted"
+      ],
+      "input": {
+        "cost": {
+          "total": 1.25
+        },
+        "meta": {
+          "agent_version": "fixture",
+          "host_pid": 42,
+          "model_version": "fixture"
+        },
+        "outcome": {
+          "error_category": "assertion",
+          "status": "failure",
+          "summary": "failed"
+        },
+        "steps": [
+          {
+            "action": "run",
+            "error": true,
+            "index": 0,
+            "observation": "<think>hidden</think>reasoning: internal\nAssertionError admin@example.test"
+          },
+          {
+            "action": "fetch password=hunter2",
+            "index": 1,
+            "observation": "Bearer abcdefghijklmnop zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+            "tool": "shell"
+          },
+          {
+            "action": "email admin@example.test",
+            "index": 2,
+            "observation": "reachable at 10.0.0.1"
+          },
+          {
+            "action": "repeat",
+            "index": 3,
+            "observation": "same"
+          },
+          {
+            "action": "repeat",
+            "index": 4,
+            "observation": "same"
+          },
+          {
+            "action": "repeat",
+            "index": 5,
+            "observation": "same"
+          },
+          {
+            "action": "repeat",
+            "index": 6,
+            "observation": "same"
+          },
+          {
+            "action": "repeat",
+            "index": 7,
+            "observation": "same"
+          },
+          {
+            "action": "repeat",
+            "index": 8,
+            "observation": "same"
+          }
+        ],
+        "task": "Contact admin@example.test with sk-abcdefghijklmnop",
+        "trajectory_id": "pii-record"
+      },
+      "legacy_cleaned_fingerprint": "sha256:07573cec53b8e79da98d8236e3b638da3f38951e86cd010d7ebf06e150ae372d",
+      "legacy_cleaned_payload": {
+        "cost": {
+          "total": 1.25
+        },
+        "meta": {
+          "agent_version": "fixture",
+          "extensions": {
+            "host_pid": 42
+          },
+          "finished_at": null,
+          "harness": "unknown",
+          "model_version": "fixture",
+          "skill_versions": {},
+          "started_at": null
+        },
+        "outcome": {
+          "corrections": 0,
+          "error_category": "assertion",
+          "status": "failure",
+          "summary": "failed"
+        },
+        "steps": [
+          {
+            "action": "run",
+            "error": true,
+            "index": 0,
+            "observation": "\nAssertionError [REDACTED:email]",
+            "redacted": true,
+            "tool": null
+          },
+          {
+            "action": "fetch [REDACTED:password]",
+            "error": false,
+            "index": 1,
+            "observation": "[REDACTED:bearer_token] zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+            "redacted": true,
+            "tool": "shell"
+          },
+          {
+            "action": "email [REDACTED:email]",
+            "error": false,
+            "index": 2,
+            "observation": "reachable at [REDACTED:ipv4]",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 3,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 4,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 5,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 6,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 7,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 8,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          }
+        ],
+        "task": "Contact [REDACTED:email] with [REDACTED:api_key]",
+        "trajectory_id": "pii-record"
+      },
+      "normalized_fingerprint": "sha256:e0e7ab82efb70072f9545dd8a8eb590d2aaf967b7c8c6876cd39326e88e0adf4",
+      "normalized_payload": {
+        "cost": {
+          "total": 1.25
+        },
+        "meta": {
+          "agent_version": "fixture",
+          "extensions": {
+            "host_pid": 42
+          },
+          "finished_at": null,
+          "harness": "unknown",
+          "model_version": "fixture",
+          "skill_versions": {},
+          "started_at": null
+        },
+        "outcome": {
+          "corrections": 0,
+          "error_category": "assertion",
+          "status": "failure",
+          "summary": "failed"
+        },
+        "steps": [
+          {
+            "action": "run",
+            "error": true,
+            "index": 0,
+            "observation": "<think>hidden</think>reasoning: internal\nAssertionError admin@example.test",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "fetch password=hunter2",
+            "error": false,
+            "index": 1,
+            "observation": "Bearer abcdefghijklmnop zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+            "redacted": false,
+            "tool": "shell"
+          },
+          {
+            "action": "email admin@example.test",
+            "error": false,
+            "index": 2,
+            "observation": "reachable at 10.0.0.1",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 3,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 4,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 5,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 6,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 7,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "repeat",
+            "error": false,
+            "index": 8,
+            "observation": "same",
+            "redacted": false,
+            "tool": null
+          }
+        ],
+        "task": "Contact admin@example.test with sk-abcdefghijklmnop",
+        "trajectory_id": "pii-record"
+      },
+      "omissions": {
+        "by_op": {
+          "pii_secret_scrubbing": 7,
+          "reasoning_strip": 1,
+          "tool_receipt_truncation": 1
+        },
+        "chars_removed": 204,
+        "entries": [
+          {
+            "chars_removed": 40,
+            "field": "observation",
+            "op": "reasoning_strip",
+            "reason": "model_internal_reasoning",
+            "step_index": 0,
+            "trajectory_id": "pii-record"
+          },
+          {
+            "chars_removed": 44,
+            "field": "observation",
+            "op": "tool_receipt_truncation",
+            "reason": "tool_receipt_truncated_300",
+            "step_index": 1,
+            "trajectory_id": "pii-record"
+          },
+          {
+            "chars_removed": 19,
+            "field": "task",
+            "op": "pii_secret_scrubbing",
+            "reason": "pii_or_secret:api_key",
+            "step_index": -1,
+            "trajectory_id": "pii-record"
+          },
+          {
+            "chars_removed": 18,
+            "field": "task",
+            "op": "pii_secret_scrubbing",
+            "reason": "pii_or_secret:email",
+            "step_index": -1,
+            "trajectory_id": "pii-record"
+          },
+          {
+            "chars_removed": 18,
+            "field": "observation",
+            "op": "pii_secret_scrubbing",
+            "reason": "pii_or_secret:email",
+            "step_index": 0,
+            "trajectory_id": "pii-record"
+          },
+          {
+            "chars_removed": 23,
+            "field": "observation",
+            "op": "pii_secret_scrubbing",
+            "reason": "pii_or_secret:bearer_token",
+            "step_index": 1,
+            "trajectory_id": "pii-record"
+          },
+          {
+            "chars_removed": 16,
+            "field": "action",
+            "op": "pii_secret_scrubbing",
+            "reason": "pii_or_secret:password",
+            "step_index": 1,
+            "trajectory_id": "pii-record"
+          },
+          {
+            "chars_removed": 8,
+            "field": "observation",
+            "op": "pii_secret_scrubbing",
+            "reason": "pii_or_secret:ipv4",
+            "step_index": 2,
+            "trajectory_id": "pii-record"
+          },
+          {
+            "chars_removed": 18,
+            "field": "action",
+            "op": "pii_secret_scrubbing",
+            "reason": "pii_or_secret:email",
+            "step_index": 2,
+            "trajectory_id": "pii-record"
+          }
+        ],
+        "omission_policy": "Omission is explicit: every lossy transformation must be recorded in this log; omitted content must not be treated as known evidence in later analysis",
+        "total_omissions": 9
+      },
+      "pii_step_indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "degenerate_flags": {
+        "task-pii-control": {
+          "reward_hacking": {
+            "signals": [
+              "skip test"
+            ]
+          }
+        }
+      },
+      "expected_cleaned_fingerprint": "sha256:b262c24e1426ef1afcd937a956f76f521602e705a68e2cd2e7f08cd1b08be9a3",
+      "expected_cleaned_payload": {
+        "cost": {},
+        "meta": {
+          "agent_version": "fixture",
+          "extensions": {},
+          "finished_at": null,
+          "harness": "",
+          "model_version": "fixture",
+          "skill_versions": {},
+          "started_at": null
+        },
+        "outcome": {
+          "corrections": 0,
+          "error_category": null,
+          "status": "success",
+          "summary": ""
+        },
+        "steps": [
+          {
+            "action": "skip test",
+            "error": false,
+            "index": 0,
+            "observation": "ok",
+            "redacted": true,
+            "tool": null
+          },
+          {
+            "action": "done",
+            "error": false,
+            "index": 1,
+            "observation": "complete",
+            "redacted": false,
+            "tool": null
+          }
+        ],
+        "task": "Email [REDACTED:email]",
+        "trajectory_id": "task-pii-control"
+      },
+      "expected_payload_diff_paths": [],
+      "input": {
+        "meta": {
+          "agent_version": "fixture",
+          "harness": "",
+          "model_version": "fixture"
+        },
+        "outcome": {
+          "status": "success"
+        },
+        "steps": [
+          {
+            "action": "skip test",
+            "index": 0,
+            "observation": "<think>internal</think>ok",
+            "redacted": false
+          },
+          {
+            "action": "done",
+            "index": 1,
+            "observation": "complete"
+          }
+        ],
+        "task": "Email owner@example.test",
+        "trajectory_id": "task-pii-control"
+      },
+      "legacy_cleaned_fingerprint": "sha256:b262c24e1426ef1afcd937a956f76f521602e705a68e2cd2e7f08cd1b08be9a3",
+      "legacy_cleaned_payload": {
+        "cost": {},
+        "meta": {
+          "agent_version": "fixture",
+          "extensions": {},
+          "finished_at": null,
+          "harness": "",
+          "model_version": "fixture",
+          "skill_versions": {},
+          "started_at": null
+        },
+        "outcome": {
+          "corrections": 0,
+          "error_category": null,
+          "status": "success",
+          "summary": ""
+        },
+        "steps": [
+          {
+            "action": "skip test",
+            "error": false,
+            "index": 0,
+            "observation": "ok",
+            "redacted": true,
+            "tool": null
+          },
+          {
+            "action": "done",
+            "error": false,
+            "index": 1,
+            "observation": "complete",
+            "redacted": false,
+            "tool": null
+          }
+        ],
+        "task": "Email [REDACTED:email]",
+        "trajectory_id": "task-pii-control"
+      },
+      "normalized_fingerprint": "sha256:89aff2b0356d53bb1e210778911545afaa29d2c446821b5c4eb1dfbebac7b87f",
+      "normalized_payload": {
+        "cost": {},
+        "meta": {
+          "agent_version": "fixture",
+          "extensions": {},
+          "finished_at": null,
+          "harness": "",
+          "model_version": "fixture",
+          "skill_versions": {},
+          "started_at": null
+        },
+        "outcome": {
+          "corrections": 0,
+          "error_category": null,
+          "status": "success",
+          "summary": ""
+        },
+        "steps": [
+          {
+            "action": "skip test",
+            "error": false,
+            "index": 0,
+            "observation": "<think>internal</think>ok",
+            "redacted": false,
+            "tool": null
+          },
+          {
+            "action": "done",
+            "error": false,
+            "index": 1,
+            "observation": "complete",
+            "redacted": false,
+            "tool": null
+          }
+        ],
+        "task": "Email owner@example.test",
+        "trajectory_id": "task-pii-control"
+      },
+      "omissions": {
+        "by_op": {
+          "pii_secret_scrubbing": 1,
+          "reasoning_strip": 1
+        },
+        "chars_removed": 41,
+        "entries": [
+          {
+            "chars_removed": 23,
+            "field": "observation",
+            "op": "reasoning_strip",
+            "reason": "model_internal_reasoning",
+            "step_index": 0,
+            "trajectory_id": "task-pii-control"
+          },
+          {
+            "chars_removed": 18,
+            "field": "task",
+            "op": "pii_secret_scrubbing",
+            "reason": "pii_or_secret:email",
+            "step_index": -1,
+            "trajectory_id": "task-pii-control"
+          }
+        ],
+        "omission_policy": "Omission is explicit: every lossy transformation must be recorded in this log; omitted content must not be treated as known evidence in later analysis",
+        "total_omissions": 2
+      },
+      "pii_step_indices": []
+    }
+  ]
+}

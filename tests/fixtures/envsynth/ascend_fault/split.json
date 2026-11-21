@@ -1,0 +1,27 @@
+{
+  "search_train": [
+    "ASCEND-FAULT-0007",
+    "ASCEND-FAULT-0008",
+    "ASCEND-FAULT-0011",
+    "ASCEND-FAULT-0021",
+    "ASCEND-FAULT-0023",
+    "ASCEND-FAULT-0026",
+    "ASCEND-FAULT-0028",
+    "ASCEND-FAULT-0031",
+    "ASCEND-FAULT-0032"
+  ],
+  "validation": [
+    "ASCEND-FAULT-0004",
+    "ASCEND-FAULT-0009",
+    "ASCEND-FAULT-0015",
+    "ASCEND-FAULT-0024",
+    "ASCEND-FAULT-0030"
+  ],
+  "holdout": [
+    "ASCEND-FAULT-0010",
+    "ASCEND-FAULT-0042",
+    "ASCEND-FAULT-0044",
+    "ASCEND-FAULT-0045",
+    "ASCEND-FAULT-0049"
+  ]
+}
