@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve repository name and base commit. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "fast",
+    "mode": "fixed",
+    "p50_seconds": 0.3,
+    "p99_seconds": 0.3,
+    "seconds": 0.3
+  },
+  "name": "get_repository_revision",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:047b4b655196cc7aab2d99818426b8519b0af469244726079333f822d79fb416"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 5.3,
+  "tool_id": "sphinx-doc__sphinx-10435-2-tools-12s-1r-38148t.get_repository_revision"
+}

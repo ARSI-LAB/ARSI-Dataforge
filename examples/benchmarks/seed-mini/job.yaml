@@ -1,0 +1,10 @@
+{
+  "schema_version": "dataforge-benchmark-job-v1",
+  "id": "seed-mini",
+  "source": "source.json",
+  "augmentation": "augment.json",
+  "catalog": "catalog",
+  "output": "out",
+  "trusted": "trusted",
+  "quality_threshold": 0.0
+}

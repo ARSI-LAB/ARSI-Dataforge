@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:fb53a22c7adb1e9645232d2f6117db82f20481399ab1652a2a6abb133668d4aa",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"73c5b7f4b11a81e971f7d1bb18072e06a87060f4\",\"instance_id\":\"pytest-dev__pytest-5840\",\"repo\":\"pytest-dev/pytest\"}.",
+        "role": "system"
+      },
+      {
+        "content": "5.1.2 ImportError while loading conftest (windows import folder casing issues)\n5.1.1 works fine. after upgrade to 5.1.2, the path was converted to lower case\r\n```\r\nInstalling collected packages: pytest\r\n  Found existing installation: pytest 5.1.1\r\n    Uninstalling pytest-5.1.1:\r\n      Successfully uninstalled pytest-5.1.1\r\nSuccessfully installed pytest-5.1.2\r\nPS C:\\Azure\\KMS\\ComponentTest\\Python> pytest --collect-only .\\PIsys -m smoke\r\nImportError while loading conftest 'c:\\azure\\kms\\componenttest\\python\\pisys\\conftest.py'.\r\nModuleNotFoundError: No module named 'python'\r\nPS C:\\Azure\\KMS\\ComponentTest\\Python>\r\n```\r\n\r\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "pytest-dev__pytest-5840-2-tools-20s-1r-38824t",
+    "task_text": "5.1.2 ImportError while loading conftest (windows import folder casing issues)\n5.1.1 works fine. after upgrade to 5.1.2, the path was converted to lower case\r\n```\r\nInstalling collected packages: pytest\r\n  Found existing installation: pytest 5.1.1\r\n    Uninstalling pytest-5.1.1:\r\n      Successfully uninstalled pytest-5.1.1\r\nSuccessfully installed pytest-5.1.2\r\nPS C:\\Azure\\KMS\\ComponentTest\\Python> pytest --collect-only .\\PIsys -m smoke\r\nImportError while loading conftest 'c:\\azure\\kms\\componenttest\\python\\pisys\\conftest.py'.\r\nModuleNotFoundError: No module named 'python'\r\nPS C:\\Azure\\KMS\\ComponentTest\\Python>\r\n```\r\n\r\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "pytest-dev__pytest-5840-2-tools-20s-1r-38824t.get_repository_revision"
+    },
+    {
+      "tool_ref": "pytest-dev__pytest-5840-2-tools-20s-1r-38824t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "pytest-dev__pytest-5840-2-tools-20s-1r-38824t"
+}

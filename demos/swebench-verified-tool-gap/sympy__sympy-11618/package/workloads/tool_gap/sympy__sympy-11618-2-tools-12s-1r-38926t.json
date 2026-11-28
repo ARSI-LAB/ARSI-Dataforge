@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:77b5c58905d8ffdb28963b6c57708bf93e7a513ce81faaf4ac842dced09948bc",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"360290c4c401e386db60723ddb0109ed499c9f6e\",\"instance_id\":\"sympy__sympy-11618\",\"repo\":\"sympy/sympy\"}.",
+        "role": "system"
+      },
+      {
+        "content": "distance calculation wrong\n``` python\n>>> Point(2,0).distance(Point(1,0,2))\n1\n```\n\nThe 3rd dimension is being ignored when the Points are zipped together to calculate the distance so `sqrt((2-1)**2 + (0-0)**2)` is being computed instead of `sqrt(5)`.\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "sympy__sympy-11618-2-tools-12s-1r-38926t",
+    "task_text": "distance calculation wrong\n``` python\n>>> Point(2,0).distance(Point(1,0,2))\n1\n```\n\nThe 3rd dimension is being ignored when the Points are zipped together to calculate the distance so `sqrt((2-1)**2 + (0-0)**2)` is being computed instead of `sqrt(5)`.\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "sympy__sympy-11618-2-tools-12s-1r-38926t.get_repository_revision"
+    },
+    {
+      "tool_ref": "sympy__sympy-11618-2-tools-12s-1r-38926t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "sympy__sympy-11618-2-tools-12s-1r-38926t"
+}

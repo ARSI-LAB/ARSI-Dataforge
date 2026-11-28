@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve repository name and base commit. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "fast",
+    "mode": "fixed",
+    "p50_seconds": 0.3,
+    "p99_seconds": 0.3,
+    "seconds": 0.3
+  },
+  "name": "get_repository_revision",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:1f66f3450bf5683a2763d65f517cea2db8aaa93d8a224ea8dcf0510034cf0e8a"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 5.3,
+  "tool_id": "pydata__xarray-3993-2-tools-45s-1r-38780t.get_repository_revision"
+}

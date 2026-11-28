@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:5e62fb2c289794c0c8cefe93eb1e08048eae487ba841eaaa7363ce46347e60a3",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"36300ef336e3f130a0dadc1143163ff3d23dc843\",\"instance_id\":\"django__django-10999\",\"repo\":\"django/django\"}.",
+        "role": "system"
+      },
+      {
+        "content": "Fix parse_duration() for some negative durations\nDescription\n\t\nThe ​https://docs.djangoproject.com/en/2.1/_modules/django/utils/dateparse/ defines:\nstandard_duration_re = re.compile(\n\tr'^'\n\tr'(?:(?P<days>-?\\d+) (days?, )?)?'\n\tr'((?:(?P<hours>-?\\d+):)(?=\\d+:\\d+))?'\n\tr'(?:(?P<minutes>-?\\d+):)?'\n\tr'(?P<seconds>-?\\d+)'\n\tr'(?:\\.(?P<microseconds>\\d{1,6})\\d{0,6})?'\n\tr'$'\n)\nthat doesn't match to negative durations, because of the <hours> definition final (lookahead) part does not have '-?' in it. The following will work:\n\tr'((?:(?P<hours>-?\\d+):)(?=-?\\d+:-?\\d+))?'\n(Thanks to Konstantin Senichev for finding the fix.)\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "django__django-10999-2-tools-45s-1r-38784t",
+    "task_text": "Fix parse_duration() for some negative durations\nDescription\n\t\nThe ​https://docs.djangoproject.com/en/2.1/_modules/django/utils/dateparse/ defines:\nstandard_duration_re = re.compile(\n\tr'^'\n\tr'(?:(?P<days>-?\\d+) (days?, )?)?'\n\tr'((?:(?P<hours>-?\\d+):)(?=\\d+:\\d+))?'\n\tr'(?:(?P<minutes>-?\\d+):)?'\n\tr'(?P<seconds>-?\\d+)'\n\tr'(?:\\.(?P<microseconds>\\d{1,6})\\d{0,6})?'\n\tr'$'\n)\nthat doesn't match to negative durations, because of the <hours> definition final (lookahead) part does not have '-?' in it. The following will work:\n\tr'((?:(?P<hours>-?\\d+):)(?=-?\\d+:-?\\d+))?'\n(Thanks to Konstantin Senichev for finding the fix.)\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "django__django-10999-2-tools-45s-1r-38784t.get_repository_revision"
+    },
+    {
+      "tool_ref": "django__django-10999-2-tools-45s-1r-38784t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "django__django-10999-2-tools-45s-1r-38784t"
+}

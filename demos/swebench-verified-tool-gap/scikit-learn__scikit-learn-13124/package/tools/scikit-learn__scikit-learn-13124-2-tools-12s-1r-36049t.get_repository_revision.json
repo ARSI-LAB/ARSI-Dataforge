@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve repository name and base commit. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "fast",
+    "mode": "fixed",
+    "p50_seconds": 0.3,
+    "p99_seconds": 0.3,
+    "seconds": 0.3
+  },
+  "name": "get_repository_revision",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:a3c41663356bd58de2ac827db32e7941e890526ae4177bbab2c95a204446bae0"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 5.3,
+  "tool_id": "scikit-learn__scikit-learn-13124-2-tools-12s-1r-36049t.get_repository_revision"
+}

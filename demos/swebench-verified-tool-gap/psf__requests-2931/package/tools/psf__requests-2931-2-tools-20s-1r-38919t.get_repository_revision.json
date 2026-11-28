@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve repository name and base commit. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "fast",
+    "mode": "fixed",
+    "p50_seconds": 0.3,
+    "p99_seconds": 0.3,
+    "seconds": 0.3
+  },
+  "name": "get_repository_revision",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:2afc58f9e88d7917449d96104223c7cdd7e1c666a5136893491e1d434ec24d89"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 5.3,
+  "tool_id": "psf__requests-2931-2-tools-20s-1r-38919t.get_repository_revision"
+}

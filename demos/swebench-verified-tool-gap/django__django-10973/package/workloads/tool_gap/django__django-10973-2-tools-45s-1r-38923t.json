@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:a44c7184d6af4b7c48fbfc3b1d79b9b4d1d45778e4ccd1f75f4854361d94e5ca",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"ddb293685235fd09e932805771ae97f72e817181\",\"instance_id\":\"django__django-10973\",\"repo\":\"django/django\"}.",
+        "role": "system"
+      },
+      {
+        "content": "Use subprocess.run and PGPASSWORD for client in postgres backend\nDescription\n\t\n​subprocess.run was added in python 3.5 (which is the minimum version since Django 2.1). This function allows you to pass a custom environment for the subprocess.\nUsing this in django.db.backends.postgres.client to set PGPASSWORD simplifies the code and makes it more reliable.\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "django__django-10973-2-tools-45s-1r-38923t",
+    "task_text": "Use subprocess.run and PGPASSWORD for client in postgres backend\nDescription\n\t\n​subprocess.run was added in python 3.5 (which is the minimum version since Django 2.1). This function allows you to pass a custom environment for the subprocess.\nUsing this in django.db.backends.postgres.client to set PGPASSWORD simplifies the code and makes it more reliable.\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "django__django-10973-2-tools-45s-1r-38923t.get_repository_revision"
+    },
+    {
+      "tool_ref": "django__django-10973-2-tools-45s-1r-38923t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "django__django-10973-2-tools-45s-1r-38923t"
+}

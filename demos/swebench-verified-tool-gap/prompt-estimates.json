@@ -1,0 +1,3962 @@
+[
+  {
+    "workload_id": "astropy__astropy-12907-2-tools-12s-1r-38676t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 627,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-12907-2-tools-20s-1r-38676t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 627,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-12907-2-tools-45s-1r-38676t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 627,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10097-2-tools-12s-1r-38418t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 883,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10097-2-tools-20s-1r-38418t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 883,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10097-2-tools-45s-1r-38418t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 883,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-13989-2-tools-12s-1r-38512t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 787,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-13989-2-tools-20s-1r-38512t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 787,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-13989-2-tools-45s-1r-38512t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 787,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "mwaskom__seaborn-3069-2-tools-12s-1r-38738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 566,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "mwaskom__seaborn-3069-2-tools-20s-1r-38738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 566,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "mwaskom__seaborn-3069-2-tools-45s-1r-38738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 566,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "pallets__flask-5014-2-tools-12s-1r-38950t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 354,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "pallets__flask-5014-2-tools-20s-1r-38950t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 354,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "pallets__flask-5014-2-tools-45s-1r-38950t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 354,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1142-2-tools-12s-1r-38920t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 383,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1142-2-tools-20s-1r-38920t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 383,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1142-2-tools-45s-1r-38920t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 383,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-2905-2-tools-12s-1r-38314t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 988,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-2905-2-tools-20s-1r-38314t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 988,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-2905-2-tools-45s-1r-38314t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 988,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4551-2-tools-12s-1r-38724t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 583,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4551-2-tools-20s-1r-38724t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 583,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4551-2-tools-45s-1r-38724t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 583,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10051-2-tools-12s-1r-38534t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 765,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10051-2-tools-20s-1r-38534t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 765,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10051-2-tools-45s-1r-38534t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 765,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10297-2-tools-12s-1r-38591t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 719,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39436
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10297-2-tools-20s-1r-38591t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 719,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39436
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10297-2-tools-45s-1r-38591t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 719,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39436
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10323-2-tools-12s-1r-38214t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1086,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10323-2-tools-20s-1r-38214t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1086,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10323-2-tools-45s-1r-38214t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1086,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-11618-2-tools-12s-1r-38926t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 382,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39432
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-11618-2-tools-20s-1r-38926t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 382,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39432
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-11618-2-tools-45s-1r-38926t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 382,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39432
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13033-2-tools-12s-1r-38289t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1014,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13033-2-tools-20s-1r-38289t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1014,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13033-2-tools-45s-1r-38289t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1014,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10554-2-tools-12s-1r-38150t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1149,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39411
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10554-2-tools-20s-1r-38150t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1149,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39411
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10554-2-tools-45s-1r-38150t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1149,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39411
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-14623-2-tools-12s-1r-38630t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 670,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-14623-2-tools-20s-1r-38630t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 670,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-14623-2-tools-45s-1r-38630t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 670,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "mwaskom__seaborn-3187-2-tools-12s-1r-38586t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 718,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "mwaskom__seaborn-3187-2-tools-20s-1r-38586t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 718,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "mwaskom__seaborn-3187-2-tools-45s-1r-38586t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 718,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1724-2-tools-12s-1r-36858t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2441,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1724-2-tools-20s-1r-36858t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2441,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1724-2-tools-45s-1r-36858t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2441,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3095-2-tools-12s-1r-38458t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 843,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3095-2-tools-20s-1r-38458t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 843,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3095-2-tools-45s-1r-38458t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 843,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4604-2-tools-12s-1r-38780t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 523,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4604-2-tools-20s-1r-38780t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 523,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4604-2-tools-45s-1r-38780t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 523,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10081-2-tools-12s-1r-38278t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1021,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10081-2-tools-20s-1r-38278t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1021,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10081-2-tools-45s-1r-38278t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1021,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10844-2-tools-12s-1r-38410t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 903,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10844-2-tools-20s-1r-38410t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 903,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10844-2-tools-45s-1r-38410t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 903,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10435-2-tools-12s-1r-38148t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1157,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10435-2-tools-20s-1r-38148t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1157,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10435-2-tools-45s-1r-38148t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1157,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12096-2-tools-12s-1r-38801t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 506,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39433
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12096-2-tools-20s-1r-38801t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 506,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39433
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12096-2-tools-45s-1r-38801t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 506,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39433
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13236-2-tools-12s-1r-38528t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 774,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13236-2-tools-20s-1r-38528t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 774,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13236-2-tools-45s-1r-38528t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 774,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10880-2-tools-12s-1r-38945t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 358,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10880-2-tools-20s-1r-38945t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 358,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10880-2-tools-45s-1r-38945t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 358,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20488-2-tools-12s-1r-38462t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 839,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20488-2-tools-20s-1r-38462t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 839,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20488-2-tools-45s-1r-38462t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 839,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1766-2-tools-12s-1r-38789t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 511,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1766-2-tools-20s-1r-38789t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 511,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1766-2-tools-45s-1r-38789t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 511,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3151-2-tools-12s-1r-38255t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1047,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3151-2-tools-20s-1r-38255t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1047,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3151-2-tools-45s-1r-38255t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1047,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4661-2-tools-12s-1r-38779t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 523,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4661-2-tools-20s-1r-38779t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 523,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4661-2-tools-45s-1r-38779t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 523,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10356-2-tools-12s-1r-37784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1517,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10356-2-tools-20s-1r-37784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1517,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-10356-2-tools-45s-1r-37784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1517,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10908-2-tools-12s-1r-38508t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 805,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10908-2-tools-20s-1r-38508t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 805,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-10908-2-tools-45s-1r-38508t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 805,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10449-2-tools-12s-1r-37929t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1376,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10449-2-tools-20s-1r-37929t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1376,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10449-2-tools-45s-1r-37929t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1376,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12419-2-tools-12s-1r-38667t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 643,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12419-2-tools-20s-1r-38667t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 643,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12419-2-tools-45s-1r-38667t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 643,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13398-2-tools-12s-1r-37766t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1535,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13398-2-tools-20s-1r-37766t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1535,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13398-2-tools-45s-1r-37766t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1535,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10914-2-tools-12s-1r-38785t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 515,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10914-2-tools-20s-1r-38785t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 515,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10914-2-tools-45s-1r-38785t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 515,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20676-2-tools-12s-1r-38602t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 696,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20676-2-tools-20s-1r-38602t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 696,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20676-2-tools-45s-1r-38602t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 696,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1921-2-tools-12s-1r-38829t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 472,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1921-2-tools-20s-1r-38829t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 472,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-1921-2-tools-45s-1r-38829t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 472,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3305-2-tools-12s-1r-38363t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 941,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3305-2-tools-20s-1r-38363t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 941,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3305-2-tools-45s-1r-38363t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 941,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4970-2-tools-12s-1r-38849t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 453,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4970-2-tools-20s-1r-38849t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 453,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-4970-2-tools-45s-1r-38849t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 453,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5262-2-tools-12s-1r-37781t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1519,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5262-2-tools-20s-1r-37781t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1519,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5262-2-tools-45s-1r-37781t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1519,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-11310-2-tools-12s-1r-38718t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 591,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-11310-2-tools-20s-1r-38718t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 591,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-11310-2-tools-45s-1r-38718t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 591,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10466-2-tools-12s-1r-38165t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1135,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10466-2-tools-20s-1r-38165t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1135,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10466-2-tools-45s-1r-38165t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1135,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12481-2-tools-12s-1r-38910t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 398,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12481-2-tools-20s-1r-38910t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 398,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12481-2-tools-45s-1r-38910t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 398,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13453-2-tools-12s-1r-36738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2568,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13453-2-tools-20s-1r-36738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2568,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13453-2-tools-45s-1r-36738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2568,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10973-2-tools-12s-1r-38923t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 377,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10973-2-tools-20s-1r-38923t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 377,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10973-2-tools-45s-1r-38923t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 377,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20826-2-tools-12s-1r-38276t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1026,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20826-2-tools-20s-1r-38276t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1026,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20826-2-tools-45s-1r-38276t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1026,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-2317-2-tools-12s-1r-38784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 512,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39411
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-2317-2-tools-20s-1r-38784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 512,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39411
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-2317-2-tools-45s-1r-38784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 512,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39411
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3677-2-tools-12s-1r-38577t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 726,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3677-2-tools-20s-1r-38577t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 726,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3677-2-tools-45s-1r-38577t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 726,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6386-2-tools-12s-1r-38763t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 544,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6386-2-tools-20s-1r-38763t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 544,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6386-2-tools-45s-1r-38763t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 544,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5631-2-tools-12s-1r-38347t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 952,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39416
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5631-2-tools-20s-1r-38347t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 952,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39416
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5631-2-tools-45s-1r-38347t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 952,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39416
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-11578-2-tools-12s-1r-37186t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2127,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-11578-2-tools-20s-1r-37186t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2127,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-11578-2-tools-45s-1r-37186t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2127,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10614-2-tools-12s-1r-38169t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1137,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10614-2-tools-20s-1r-38169t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1137,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10614-2-tools-45s-1r-38169t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1137,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12489-2-tools-12s-1r-38738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 566,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12489-2-tools-20s-1r-38738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 566,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-12489-2-tools-45s-1r-38738t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 566,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13579-2-tools-12s-1r-37522t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1782,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13579-2-tools-20s-1r-37522t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1782,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13579-2-tools-45s-1r-37522t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1782,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39426
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10999-2-tools-12s-1r-38784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 516,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10999-2-tools-20s-1r-38784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 516,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-10999-2-tools-45s-1r-38784t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 516,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20859-2-tools-12s-1r-38334t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 967,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20859-2-tools-20s-1r-38334t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 967,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-20859-2-tools-45s-1r-38334t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 967,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-2931-2-tools-12s-1r-38919t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 381,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-2931-2-tools-20s-1r-38919t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 381,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-2931-2-tools-45s-1r-38919t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 381,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3993-2-tools-12s-1r-38780t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 520,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3993-2-tools-20s-1r-38780t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 520,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-3993-2-tools-45s-1r-38780t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 520,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6528-2-tools-12s-1r-38433t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 874,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6528-2-tools-20s-1r-38433t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 874,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6528-2-tools-45s-1r-38433t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 874,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5787-2-tools-12s-1r-38163t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1135,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39413
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5787-2-tools-20s-1r-38163t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1135,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39413
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5787-2-tools-45s-1r-38163t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1135,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39413
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12585-2-tools-12s-1r-38673t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 638,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39434
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12585-2-tools-20s-1r-38673t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 638,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39434
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12585-2-tools-45s-1r-38673t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 638,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39434
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10673-2-tools-12s-1r-38642t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 665,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10673-2-tools-20s-1r-38642t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 665,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-10673-2-tools-45s-1r-38642t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 665,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13031-2-tools-12s-1r-38709t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 599,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39427
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13031-2-tools-20s-1r-38709t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 599,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39427
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13031-2-tools-45s-1r-38709t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 599,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39427
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13977-2-tools-12s-1r-38094t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1213,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13977-2-tools-20s-1r-38094t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1213,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-13977-2-tools-45s-1r-38094t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1213,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11066-2-tools-12s-1r-38570t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 734,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11066-2-tools-20s-1r-38570t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 734,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11066-2-tools-45s-1r-38570t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 734,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-21568-2-tools-12s-1r-38565t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 731,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39410
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-21568-2-tools-20s-1r-38565t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 731,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39410
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-21568-2-tools-45s-1r-38565t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 731,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39410
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-5414-2-tools-12s-1r-38545t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 753,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-5414-2-tools-20s-1r-38545t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 753,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-5414-2-tools-45s-1r-38545t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 753,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4075-2-tools-12s-1r-38251t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1053,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4075-2-tools-20s-1r-38251t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1053,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4075-2-tools-45s-1r-38251t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1053,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6903-2-tools-12s-1r-38069t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1236,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6903-2-tools-20s-1r-38069t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1236,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-6903-2-tools-45s-1r-38069t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1236,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5809-2-tools-12s-1r-38710t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 591,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5809-2-tools-20s-1r-38710t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 591,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5809-2-tools-45s-1r-38710t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 591,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12682-2-tools-12s-1r-38869t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 440,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12682-2-tools-20s-1r-38869t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 440,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12682-2-tools-45s-1r-38869t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 440,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-11445-2-tools-12s-1r-38453t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 854,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-11445-2-tools-20s-1r-38453t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 854,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-11445-2-tools-45s-1r-38453t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 854,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39425
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13091-2-tools-12s-1r-38566t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 742,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39432
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13091-2-tools-20s-1r-38566t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 742,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39432
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13091-2-tools-45s-1r-38566t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 742,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39432
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14096-2-tools-12s-1r-38748t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 555,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14096-2-tools-20s-1r-38748t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 555,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14096-2-tools-45s-1r-38748t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 555,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11087-2-tools-12s-1r-36369t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2927,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39410
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11087-2-tools-20s-1r-36369t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2927,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39410
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11087-2-tools-45s-1r-36369t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 2927,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39410
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22719-2-tools-12s-1r-36280t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 3022,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22719-2-tools-20s-1r-36280t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 3022,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22719-2-tools-45s-1r-36280t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 3022,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-6028-2-tools-12s-1r-38607t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 693,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-6028-2-tools-20s-1r-38607t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 693,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "psf__requests-6028-2-tools-45s-1r-38607t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 693,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4094-2-tools-12s-1r-38410t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 892,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4094-2-tools-20s-1r-38410t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 892,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4094-2-tools-45s-1r-38410t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 892,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39419
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-7080-2-tools-12s-1r-31279t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 8022,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-7080-2-tools-20s-1r-31279t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 8022,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-7080-2-tools-45s-1r-31279t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 8022,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5840-2-tools-12s-1r-38824t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 481,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5840-2-tools-20s-1r-38824t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 481,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-5840-2-tools-45s-1r-38824t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 481,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12973-2-tools-12s-1r-38586t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 725,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39441
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12973-2-tools-20s-1r-38586t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 725,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39441
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-12973-2-tools-45s-1r-38586t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 725,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39441
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-11510-2-tools-12s-1r-37486t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1820,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39427
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-11510-2-tools-20s-1r-37486t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1820,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39427
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-11510-2-tools-45s-1r-37486t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1820,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39427
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13372-2-tools-12s-1r-38633t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 673,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39428
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13372-2-tools-20s-1r-38633t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 673,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39428
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13372-2-tools-45s-1r-38633t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 673,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39428
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14182-2-tools-12s-1r-38469t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 835,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14182-2-tools-20s-1r-38469t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 835,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14182-2-tools-45s-1r-38469t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 835,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11095-2-tools-12s-1r-38915t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 386,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11095-2-tools-20s-1r-38915t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 386,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11095-2-tools-45s-1r-38915t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 386,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39418
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22865-2-tools-12s-1r-38544t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 757,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39413
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22865-2-tools-20s-1r-38544t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 757,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39413
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22865-2-tools-45s-1r-38544t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 757,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39413
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4356-2-tools-12s-1r-38783t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 517,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39416
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4356-2-tools-20s-1r-38783t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 517,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39416
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4356-2-tools-45s-1r-38783t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 517,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39416
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-7277-2-tools-12s-1r-38704t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 603,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-7277-2-tools-20s-1r-38704t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 603,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-7277-2-tools-45s-1r-38704t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 603,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39431
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-6197-2-tools-12s-1r-38079t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1218,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-6197-2-tools-20s-1r-38079t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1218,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-6197-2-tools-45s-1r-38079t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1218,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39412
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13124-2-tools-12s-1r-36049t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 3266,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39447
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13124-2-tools-20s-1r-36049t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 3266,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39447
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13124-2-tools-45s-1r-36049t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 3266,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39447
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7440-2-tools-12s-1r-38713t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 588,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7440-2-tools-20s-1r-38713t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 588,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7440-2-tools-45s-1r-38713t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 588,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13480-2-tools-12s-1r-38841t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 466,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13480-2-tools-20s-1r-38841t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 466,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13480-2-tools-45s-1r-38841t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 466,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14309-2-tools-12s-1r-37652t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1651,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14309-2-tools-20s-1r-37652t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1651,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14309-2-tools-45s-1r-37652t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1651,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11099-2-tools-12s-1r-38835t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 463,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11099-2-tools-20s-1r-38835t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 463,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11099-2-tools-45s-1r-38835t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 463,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22871-2-tools-12s-1r-38571t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 731,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22871-2-tools-20s-1r-38571t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 731,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-22871-2-tools-45s-1r-38571t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 731,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4629-2-tools-12s-1r-38100t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1203,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4629-2-tools-20s-1r-38100t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1203,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4629-2-tools-45s-1r-38100t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1203,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-8898-2-tools-12s-1r-37993t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1314,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-8898-2-tools-20s-1r-37993t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1314,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "pylint-dev__pylint-8898-2-tools-45s-1r-37993t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1314,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39421
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-6202-2-tools-12s-1r-38245t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1056,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-6202-2-tools-20s-1r-38245t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1056,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-6202-2-tools-45s-1r-38245t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1056,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13135-2-tools-12s-1r-37364t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1946,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39438
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13135-2-tools-20s-1r-37364t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1946,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39438
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13135-2-tools-45s-1r-37364t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1946,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39438
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7454-2-tools-12s-1r-38239t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1064,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7454-2-tools-20s-1r-38239t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1064,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7454-2-tools-45s-1r-38239t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1064,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13551-2-tools-12s-1r-38795t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 514,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13551-2-tools-20s-1r-38795t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 514,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13551-2-tools-45s-1r-38795t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 514,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39435
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14365-2-tools-12s-1r-38532t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 774,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14365-2-tools-20s-1r-38532t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 774,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14365-2-tools-45s-1r-38532t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 774,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39429
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11119-2-tools-12s-1r-38913t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 386,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11119-2-tools-20s-1r-38913t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 386,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11119-2-tools-45s-1r-38913t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 386,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39414
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23299-2-tools-12s-1r-38499t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 794,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39400
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23299-2-tools-20s-1r-38499t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 794,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39400
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23299-2-tools-45s-1r-38499t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 794,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39400
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4687-2-tools-12s-1r-37642t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1663,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4687-2-tools-20s-1r-37642t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1663,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4687-2-tools-45s-1r-37642t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1663,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39424
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-7205-2-tools-12s-1r-37827t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1473,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-7205-2-tools-20s-1r-37827t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1473,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-7205-2-tools-45s-1r-37827t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1473,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13142-2-tools-12s-1r-37996t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1317,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13142-2-tools-20s-1r-37996t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1317,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13142-2-tools-45s-1r-37996t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1317,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39443
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7462-2-tools-12s-1r-38636t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 673,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39434
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7462-2-tools-20s-1r-38636t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 673,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39434
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7462-2-tools-45s-1r-38636t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 673,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39434
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13615-2-tools-12s-1r-38930t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 379,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39433
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13615-2-tools-20s-1r-38930t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 379,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39433
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13615-2-tools-45s-1r-38930t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 379,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39433
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14369-2-tools-12s-1r-38207t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1096,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14369-2-tools-20s-1r-38207t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1096,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14369-2-tools-45s-1r-38207t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1096,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39422
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11133-2-tools-12s-1r-38815t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 485,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39407
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11133-2-tools-20s-1r-38815t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 485,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39407
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11133-2-tools-45s-1r-38815t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 485,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39407
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23314-2-tools-12s-1r-38767t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 534,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23314-2-tools-20s-1r-38767t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 534,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23314-2-tools-45s-1r-38767t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 534,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39415
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4695-2-tools-12s-1r-37694t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1610,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4695-2-tools-20s-1r-37694t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1610,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pydata__xarray-4695-2-tools-45s-1r-37694t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1610,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-7236-2-tools-12s-1r-38292t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1009,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-7236-2-tools-20s-1r-38292t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1009,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "pytest-dev__pytest-7236-2-tools-45s-1r-38292t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1009,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13328-2-tools-12s-1r-37576t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1739,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39447
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13328-2-tools-20s-1r-37576t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1739,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39447
+      }
+    ]
+  },
+  {
+    "workload_id": "scikit-learn__scikit-learn-13328-2-tools-45s-1r-37576t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1739,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39447
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7590-2-tools-12s-1r-38827t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 474,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7590-2-tools-20s-1r-38827t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 474,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "sphinx-doc__sphinx-7590-2-tools-45s-1r-38827t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 474,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39420
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13647-2-tools-12s-1r-38434t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 875,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13647-2-tools-20s-1r-38434t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 875,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "sympy__sympy-13647-2-tools-45s-1r-38434t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 875,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39430
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14508-2-tools-12s-1r-38139t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1164,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14508-2-tools-20s-1r-38139t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1164,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "astropy__astropy-14508-2-tools-45s-1r-38139t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1164,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39423
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11138-2-tools-12s-1r-38072t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1229,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11138-2-tools-20s-1r-38072t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1229,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "django__django-11138-2-tools-45s-1r-38072t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 1229,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39417
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23412-2-tools-12s-1r-38357t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 937,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39406
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23412-2-tools-20s-1r-38357t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 937,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39406
+      }
+    ]
+  },
+  {
+    "workload_id": "matplotlib__matplotlib-23412-2-tools-45s-1r-38357t",
+    "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+    "estimated_initial_prompt_tokens": 937,
+    "continuations": [
+      {
+        "round": 1,
+        "estimated_prompt_tokens": 39406
+      }
+    ]
+  }
+]

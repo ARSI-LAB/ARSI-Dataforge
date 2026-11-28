@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve fixed-size extract from the original issue. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "slow",
+    "mode": "fixed",
+    "p50_seconds": 45.0,
+    "p99_seconds": 45.0,
+    "seconds": 45.0
+  },
+  "name": "get_issue_excerpt",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:3d7330ec7ae8e3152c0cd3476b1a228e612641e69b6d777b9572ad2dc3f8ebb5"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 50.0,
+  "tool_id": "scikit-learn__scikit-learn-12973-2-tools-45s-1r-38586t.get_issue_excerpt"
+}

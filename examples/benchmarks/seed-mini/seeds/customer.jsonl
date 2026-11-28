@@ -1,0 +1,1 @@
+{"task_id": "customer-001", "task_text": "Reconcile the customer's quarterly ledger and write the computed total.", "success_criteria": "Produce output/result.json with the reconciled total.", "tools_available": ["files"], "difficulty": "easy", "customer": "acme-example"}

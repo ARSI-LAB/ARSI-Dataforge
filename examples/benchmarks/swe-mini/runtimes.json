@@ -1,0 +1,17 @@
+{
+  "schema_version": "benchmark-runtime-registry-v1",
+  "description": "Runtime pins consumed by prepare.py. PENDING placeholders are replaced with absolute paths and SHA-256 digests so the example stays portable.",
+  "cases": {
+    "swe-001": {
+      "environment": {"path": "runtime/environment.json", "sha256": "PENDING"},
+      "verifier": {
+        "path": "../verifier/text_verifier.py",
+        "sha256": "PENDING",
+        "command": ["PYTHON", "../verifier/text_verifier.py"],
+        "version": "example-text-verifier-v1",
+        "launcher": {"path": "PYTHON", "sha256": "PENDING"}
+      },
+      "assets": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve fixed-size extract from the original issue. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "slow",
+    "mode": "fixed",
+    "p50_seconds": 12.0,
+    "p99_seconds": 12.0,
+    "seconds": 12.0
+  },
+  "name": "get_issue_excerpt",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:fa1016f1e3f9df059fb6d1be7ed10105342d8e7fba58cb5b6617fb39c80afe8d"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 17.0,
+  "tool_id": "django__django-11133-2-tools-12s-1r-38815t.get_issue_excerpt"
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve fixed-size extract from the original issue. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "slow",
+    "mode": "fixed",
+    "p50_seconds": 20.0,
+    "p99_seconds": 20.0,
+    "seconds": 20.0
+  },
+  "name": "get_issue_excerpt",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:9114d4f34b699de81859aba32055d1272dc65a1408e6e4b97fbf974c24ae905c"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 25.0,
+  "tool_id": "pytest-dev__pytest-7236-2-tools-20s-1r-38292t.get_issue_excerpt"
+}

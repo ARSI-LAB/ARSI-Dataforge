@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve fixed-size extract from the original issue. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "slow",
+    "mode": "fixed",
+    "p50_seconds": 45.0,
+    "p99_seconds": 45.0,
+    "seconds": 45.0
+  },
+  "name": "get_issue_excerpt",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:6cf2b825a0b2c62d190244881a95d1329fd1baf42466691179dee3f5aecb8fd8"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 50.0,
+  "tool_id": "sphinx-doc__sphinx-10449-2-tools-45s-1r-37929t.get_issue_excerpt"
+}

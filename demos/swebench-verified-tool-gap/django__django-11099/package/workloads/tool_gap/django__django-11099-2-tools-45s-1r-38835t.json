@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:f8b27e25a52fd2b50afa7e16638f3503c222829c8827a66656ef590675dc53a6",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"d26b2424437dabeeca94d7900b37d2df4410da0c\",\"instance_id\":\"django__django-11099\",\"repo\":\"django/django\"}.",
+        "role": "system"
+      },
+      {
+        "content": "UsernameValidator allows trailing newline in usernames\nDescription\n\t\nASCIIUsernameValidator and UnicodeUsernameValidator use the regex \nr'^[\\w.@+-]+$'\nThe intent is to only allow alphanumeric characters as well as ., @, +, and -. However, a little known quirk of Python regexes is that $ will also match a trailing newline. Therefore, the user name validators will accept usernames which end with a newline. You can avoid this behavior by instead using \\A and \\Z to terminate regexes. For example, the validator regex could be changed to\nr'\\A[\\w.@+-]+\\Z'\nin order to reject usernames that end with a newline.\nI am not sure how to officially post a patch, but the required change is trivial - using the regex above in the two validators in contrib.auth.validators.\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "django__django-11099-2-tools-45s-1r-38835t",
+    "task_text": "UsernameValidator allows trailing newline in usernames\nDescription\n\t\nASCIIUsernameValidator and UnicodeUsernameValidator use the regex \nr'^[\\w.@+-]+$'\nThe intent is to only allow alphanumeric characters as well as ., @, +, and -. However, a little known quirk of Python regexes is that $ will also match a trailing newline. Therefore, the user name validators will accept usernames which end with a newline. You can avoid this behavior by instead using \\A and \\Z to terminate regexes. For example, the validator regex could be changed to\nr'\\A[\\w.@+-]+\\Z'\nin order to reject usernames that end with a newline.\nI am not sure how to officially post a patch, but the required change is trivial - using the regex above in the two validators in contrib.auth.validators.\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "django__django-11099-2-tools-45s-1r-38835t.get_repository_revision"
+    },
+    {
+      "tool_ref": "django__django-11099-2-tools-45s-1r-38835t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "django__django-11099-2-tools-45s-1r-38835t"
+}

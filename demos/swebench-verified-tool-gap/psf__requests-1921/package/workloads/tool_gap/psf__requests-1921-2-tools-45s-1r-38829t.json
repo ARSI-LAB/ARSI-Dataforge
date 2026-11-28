@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:1e2e41c7df27e06d89e2afbe70d4ade7f1120de04a3f3395b893d3dffa475c20",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"3c88e520da24ae6f736929a750876e7654accc3d\",\"instance_id\":\"psf__requests-1921\",\"repo\":\"psf/requests\"}.",
+        "role": "system"
+      },
+      {
+        "content": "Removing a default header of a session\n[The docs](http://docs.python-requests.org/en/latest/user/advanced/#session-objects) say that you can prevent sending a session header by setting the headers value to None in the method's arguments. You would expect (as [discussed on IRC](https://botbot.me/freenode/python-requests/msg/10788170/)) that this would work for session's default headers, too:\n\n``` python\nsession = requests.Session()\n# Do not send Accept-Encoding\nsession.headers['Accept-Encoding'] = None\n```\n\nWhat happens is that \"None\"  gets sent as the value of header.\n\n```\nAccept-Encoding: None\n```\n\nFor the reference, here is a way that works:\n\n``` python\ndel session.headers['Accept-Encoding']\n```\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "psf__requests-1921-2-tools-45s-1r-38829t",
+    "task_text": "Removing a default header of a session\n[The docs](http://docs.python-requests.org/en/latest/user/advanced/#session-objects) say that you can prevent sending a session header by setting the headers value to None in the method's arguments. You would expect (as [discussed on IRC](https://botbot.me/freenode/python-requests/msg/10788170/)) that this would work for session's default headers, too:\n\n``` python\nsession = requests.Session()\n# Do not send Accept-Encoding\nsession.headers['Accept-Encoding'] = None\n```\n\nWhat happens is that \"None\"  gets sent as the value of header.\n\n```\nAccept-Encoding: None\n```\n\nFor the reference, here is a way that works:\n\n``` python\ndel session.headers['Accept-Encoding']\n```\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "psf__requests-1921-2-tools-45s-1r-38829t.get_repository_revision"
+    },
+    {
+      "tool_ref": "psf__requests-1921-2-tools-45s-1r-38829t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "psf__requests-1921-2-tools-45s-1r-38829t"
+}

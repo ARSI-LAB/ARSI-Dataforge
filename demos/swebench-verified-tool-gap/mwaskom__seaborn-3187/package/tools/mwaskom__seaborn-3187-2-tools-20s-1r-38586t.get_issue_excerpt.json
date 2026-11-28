@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve fixed-size extract from the original issue. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "slow",
+    "mode": "fixed",
+    "p50_seconds": 20.0,
+    "p99_seconds": 20.0,
+    "seconds": 20.0
+  },
+  "name": "get_issue_excerpt",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:e53c1344819acb803f31aa95d2e32cf065e9a4cb07b83b68b3623be0f6708af6"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 25.0,
+  "tool_id": "mwaskom__seaborn-3187-2-tools-20s-1r-38586t.get_issue_excerpt"
+}

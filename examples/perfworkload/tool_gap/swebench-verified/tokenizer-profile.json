@@ -1,0 +1,11 @@
+{
+  "tokenizer_profiles": {
+    "tok-qwen2-5-v1": {
+      "tokenizer_id": "hf:Qwen/Qwen2.5-7B-Instruct@a09a354",
+      "tokenizer_sha256": "sha256:c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "chat_template_sha256": "sha256:cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+      "tokenizer_file": "tokenizer/tokenizer.json",
+      "tokenizer_config": "tokenizer/tokenizer_config.json"
+    }
+  }
+}

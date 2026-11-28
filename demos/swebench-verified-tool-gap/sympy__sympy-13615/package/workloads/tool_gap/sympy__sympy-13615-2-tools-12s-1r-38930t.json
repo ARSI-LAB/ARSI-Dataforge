@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:e96276c285c3b02815c7af9853c417f8433005f5fbc5ac1788f10d2d00f00809",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"50d8a102f0735da8e165a0369bbb994c7d0592a6\",\"instance_id\":\"sympy__sympy-13615\",\"repo\":\"sympy/sympy\"}.",
+        "role": "system"
+      },
+      {
+        "content": "Complement doesn't work when input is a mixture of Symbols and numbers\n```\r\n>>> a=FiniteSet(x,y,2)\r\n>>> b=Interval(-10,10)\r\n>>> Complement(a,b)\r\n{x, y}\r\n```\r\n`{x, y} \\ [-10,10]` is expected as output.\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "sympy__sympy-13615-2-tools-12s-1r-38930t",
+    "task_text": "Complement doesn't work when input is a mixture of Symbols and numbers\n```\r\n>>> a=FiniteSet(x,y,2)\r\n>>> b=Interval(-10,10)\r\n>>> Complement(a,b)\r\n{x, y}\r\n```\r\n`{x, y} \\ [-10,10]` is expected as output.\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "sympy__sympy-13615-2-tools-12s-1r-38930t.get_repository_revision"
+    },
+    {
+      "tool_ref": "sympy__sympy-13615-2-tools-12s-1r-38930t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "sympy__sympy-13615-2-tools-12s-1r-38930t"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "dataforge-workload-job-v1",
+  "set_id": "tool-gap-mini",
+  "seed": 20261124,
+  "environment": {
+    "delivery_mode": "simulated",
+    "time_scale": 0.01
+  },
+  "cases": [
+    {
+      "workload_id": "tool-gap-project-status",
+      "task_text": "Independently retrieve the project status and build report in parallel, then summarize the results.",
+      "context": "You assist the Atlas release team. The project tracker and the build service are independent information sources. Retrieve their current results before summarizing the release.",
+      "context_repetitions": 128,
+      "tools": [
+        {
+          "name": "get_project_status",
+          "description": "Read current project status independently of the build service.",
+          "latency_seconds": 2,
+          "result": "{\"status\":\"review\",\"open_items\":3}"
+        },
+        {
+          "name": "get_build_report",
+          "description": "Read the latest build report independently of the project tracker.",
+          "latency_seconds": 20,
+          "result": "{\"build\":\"passed\",\"tests\":128}"
+        }
+      ]
+    }
+  ]
+}

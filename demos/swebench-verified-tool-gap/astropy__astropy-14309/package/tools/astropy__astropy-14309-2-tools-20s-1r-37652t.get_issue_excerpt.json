@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve fixed-size extract from the original issue. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "slow",
+    "mode": "fixed",
+    "p50_seconds": 20.0,
+    "p99_seconds": 20.0,
+    "seconds": 20.0
+  },
+  "name": "get_issue_excerpt",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:98b9fb00461f01a62b8a5c090ae5b590a47ab572221b75c8ec82b9275b0bfa06"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 25.0,
+  "tool_id": "astropy__astropy-14309-2-tools-20s-1r-37652t.get_issue_excerpt"
+}

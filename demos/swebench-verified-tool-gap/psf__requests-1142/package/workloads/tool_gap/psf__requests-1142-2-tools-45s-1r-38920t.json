@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:147e3e2e595557c65118a346a3082d16ee5910adf028e644e585c50dd4e235fa",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"22623bd8c265b78b161542663ee980738441c307\",\"instance_id\":\"psf__requests-1142\",\"repo\":\"psf/requests\"}.",
+        "role": "system"
+      },
+      {
+        "content": "requests.get is ALWAYS sending content length\nHi,\n\nIt seems like that request.get always adds 'content-length' header to the request.\nI think that the right behavior is not to add this header automatically in GET requests or add the possibility to not send it.\n\nFor example http://amazon.com returns 503 for every get request that contains 'content-length' header.\n\nThanks,\n\nOren\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "psf__requests-1142-2-tools-45s-1r-38920t",
+    "task_text": "requests.get is ALWAYS sending content length\nHi,\n\nIt seems like that request.get always adds 'content-length' header to the request.\nI think that the right behavior is not to add this header automatically in GET requests or add the possibility to not send it.\n\nFor example http://amazon.com returns 503 for every get request that contains 'content-length' header.\n\nThanks,\n\nOren\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "psf__requests-1142-2-tools-45s-1r-38920t.get_repository_revision"
+    },
+    {
+      "tool_ref": "psf__requests-1142-2-tools-45s-1r-38920t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "psf__requests-1142-2-tools-45s-1r-38920t"
+}

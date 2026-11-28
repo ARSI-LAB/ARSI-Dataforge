@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve fixed-size extract from the original issue. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "slow",
+    "mode": "fixed",
+    "p50_seconds": 12.0,
+    "p99_seconds": 12.0,
+    "seconds": 12.0
+  },
+  "name": "get_issue_excerpt",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:8c839884e7df535f3c2b13027728700852fa6693fa6359b2ca4ae7e463b9ef2c"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 17.0,
+  "tool_id": "sympy__sympy-12489-2-tools-12s-1r-38738t.get_issue_excerpt"
+}

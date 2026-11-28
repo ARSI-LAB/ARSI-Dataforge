@@ -1,0 +1,31 @@
+{
+  "description": "Retrieve fixed-size extract from the original issue. Independent lookup.",
+  "independence": {
+    "depends_on": []
+  },
+  "latency": {
+    "class": "slow",
+    "mode": "fixed",
+    "p50_seconds": 12.0,
+    "p99_seconds": 12.0,
+    "seconds": 12.0
+  },
+  "name": "get_issue_excerpt",
+  "parameters": {
+    "additionalProperties": false,
+    "properties": {},
+    "type": "object"
+  },
+  "result": {
+    "fixtures": [
+      {
+        "content_ref": "sha256:c5180d406ca3e6afec5d75ffb94762afa207ad95c9fecdc9f38efb7d32853b07"
+      }
+    ],
+    "kind": "fixture_set"
+  },
+  "sample_arguments": {},
+  "schema_version": "agent-workload-tool-v1",
+  "timeout_seconds": 17.0,
+  "tool_id": "pylint-dev__pylint-6903-2-tools-12s-1r-38069t.get_issue_excerpt"
+}

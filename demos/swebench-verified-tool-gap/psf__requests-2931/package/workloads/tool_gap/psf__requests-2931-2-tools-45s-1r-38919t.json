@@ -1,0 +1,50 @@
+{
+  "content_digest": "sha256:4f547913096adc2faa52cb8a71a0dab1b2af541aa976b71b586517f4a491af48",
+  "load_hypothesis": {
+    "gap_class": "slow",
+    "parallel_calls": 2,
+    "turns": 1
+  },
+  "sampling": {
+    "seed": 20261124
+  },
+  "scenario": "tool_gap",
+  "schema_version": "agent-workload-v1",
+  "structure": {
+    "gap_class": "slow",
+    "kind": "tool_gap",
+    "parallel_intent": {
+      "independent": true,
+      "max_parallel_calls": 2,
+      "min_parallel_calls": 2
+    },
+    "rounds": 1
+  },
+  "task": {
+    "initial_messages": [
+      {
+        "content": "You are reviewing a SWE-bench Verified issue. Checkout: {\"base_commit\":\"5f7a3a74aab1625c2bb65f643197ee885e3da576\",\"instance_id\":\"psf__requests-2931\",\"repo\":\"psf/requests\"}.",
+        "role": "system"
+      },
+      {
+        "content": "Request with binary payload fails due to calling to_native_string\nIntroduced with https://github.com/kennethreitz/requests/issues/2844\n\n```\nimport requests\nrequests.put(\"http://httpbin.org/put\", data=u\"ööö\".encode(\"utf-8\"))\n```\n\nThis works with 2.8.1, but not with 2.9.\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+        "role": "user"
+      }
+    ],
+    "task_id": "psf__requests-2931-2-tools-45s-1r-38919t",
+    "task_text": "Request with binary payload fails due to calling to_native_string\nIntroduced with https://github.com/kennethreitz/requests/issues/2844\n\n```\nimport requests\nrequests.put(\"http://httpbin.org/put\", data=u\"ööö\".encode(\"utf-8\"))\n```\n\nThis works with 2.8.1, but not with 2.9.\n\n\n\nIndependently query these sources in parallel: get_repository_revision, get_issue_excerpt. Do 1 review pass(es), then summarize the defect and outline a fix.",
+    "tools_available": [
+      "get_repository_revision",
+      "get_issue_excerpt"
+    ]
+  },
+  "tools": [
+    {
+      "tool_ref": "psf__requests-2931-2-tools-45s-1r-38919t.get_repository_revision"
+    },
+    {
+      "tool_ref": "psf__requests-2931-2-tools-45s-1r-38919t.get_issue_excerpt"
+    }
+  ],
+  "workload_id": "psf__requests-2931-2-tools-45s-1r-38919t"
+}

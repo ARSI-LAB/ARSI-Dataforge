@@ -1,0 +1,36 @@
+{
+  "schema_version": "benchmark-augment-v1",
+  "family": "workbuddy",
+  "release": "swe-mini",
+  "split": "development",
+  "variants": [
+    {
+      "source_task_id": "swe-001",
+      "variant_id": "v1",
+      "operation": "mutation",
+      "public": {
+        "task_text": "Fix the accounting rollup so output/result.json reports the correct total.",
+        "success_criteria": "Write output/result.json containing exactly {\"total\": 42}.",
+        "tools_available": ["files"],
+        "difficulty": "easy"
+      },
+      "private": {
+        "initial_state_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "expected_state_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "verifier_spec": {
+          "kind": "artifact_compare",
+          "generator_ref": "example-owned@1",
+          "payload": {
+            "artifact": {"path": "output/result.json"},
+            "gold": {"total": 42}
+          }
+        }
+      },
+      "audit": {
+        "reviewed": true,
+        "reference_root": "candidates/reference",
+        "negative_root": "candidates/negative"
+      }
+    }
+  ]
+}
